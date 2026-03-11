@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "respectful-passion-production.up.railway.app";
+const API_BASE = "respectful-passion-production.up.railway.app/api";
 
 export const uploadImage = async (file) => {
   const formData = new FormData();
